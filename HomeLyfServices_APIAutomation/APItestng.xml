@@ -4,9 +4,9 @@
 	<listeners>
 <listener class-name="api.Listeners.TestListeners"/>
 </listeners>
-  <test thread-count="1" name="Test">
+  <test thread-count="3" name="Test">
     <classes>
-    <!--  <class name="api.test.PartnerRegistrationTest"/>-->
+   <!--   <class name="api.test.PartnerRegistrationTest"/>-->
       <class name="api.test.UserRegistrationTest"/>
     </classes>
   </test> <!-- Test -->

@@ -74,6 +74,7 @@ public static Response usersignIn(UserPOJO userpayload ) {
             response.then().log().all();
 		return response;
 	}
+
 public static Response userForgotpassOTP() {
 	
 	 JSONObject requestBody = new JSONObject();

@@ -10,6 +10,10 @@
         <methods>
           <include name="setup"/>
           <include name="testPostsignIn" invocation-numbers="1 2"/>
+          <include name="testPostVerifyOTP"/>
+          <include name="testPostsendOTP"/>
+          <include name="testPostsignUp"/>
+          <include name="testPostForgotPass"/>
         </methods>
       </class> <!-- api.test.UserRegistrationTest -->
     </classes>

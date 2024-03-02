@@ -3,6 +3,7 @@ package api.endpoints;
 public class Routes { // routes contain only urls
 	
 	 public static String BASE_URL = "https://homelyf-demo.onrender.com";
+	 
 	 public static  String USER_SEND_OTP_ENDPOINT = "/api/sendEmail-otp";
 	 public static  String USER_VERIFY_OTP_ENDPOINT="/api/verify-otp";
 	 public static  String USER_SIGNUP_OTP_ENDPOINT="/api/signup";

@@ -55,8 +55,6 @@ public class PartnerRegistrationTest {
 		Response response = PartnerRegistrationEndPoints.partnerForgotPass();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		log.info("PartnerTestPostForgotPassword method Pass");
-	}
-	
-		
+	}		
 
 }
